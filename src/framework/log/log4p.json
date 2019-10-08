@@ -20,7 +20,7 @@
 			"class": "logging.handlers.TimedRotatingFileHandler",
 			"level": "DEBUG",
 			"formatter": "detail",
-			"filename": "../../../../report/log4p-debug.log",
+			"filename": "../../../report/log4p-debug.log",
 			"when": "D",
 			"interval": 1,
 			"backupCount": 30,
@@ -30,7 +30,7 @@
 			"class": "logging.handlers.RotatingFileHandler",
 			"level": "ERROR",
 			"formatter": "detail",
-			"filename": "../../../../report/log4p-errors.log",
+			"filename": "../../../report/log4p-errors.log",
 			"maxBytes": 10485760,
 			"backupCount": 2,
 			"encoding": "utf8"

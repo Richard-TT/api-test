@@ -4,11 +4,12 @@
 # Email   : tangtao556@qq.com
 # File    : loginUser.py
 import json
+import os
 import re
 import urllib3
 import codecs
 import configparser
-
+from src.framework.common.base import *
 
 class LoginUser:
     def __init__(self):

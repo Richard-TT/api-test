@@ -6,6 +6,7 @@
 import json
 from inspect import isfunction
 from json import JSONDecodeError
+from src.framework.common.base import *
 
 
 class Api:
